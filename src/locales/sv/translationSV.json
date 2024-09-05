@@ -1,0 +1,262 @@
+{
+  "translation": {
+    "navbar": {
+      "profile": "profil",
+      "projects": "projekt",
+      "showcase": "galleri",
+      "contact": "kontakt",
+      "tooltiphelper": "Klicka här för meny"
+    },
+    "hero": {
+      "title": "profil",
+      "subtitle": "mer om mig",
+      "description": "Född och uppvuxen i Piteå, Norrbottens län. Sedan 2016 har jag bott i Stockholm och för närvarande fördjupar jag min kompetens som Frontendutvecklare med fokus på webbsäkerhet vid Jensen Yrkeshögskola i Kista. Tillhörande FWK23S-klassen förväntas jag avsluta min utbildning sommaren 2025. Mitt livslånga intresse för datorer har varit en drivkraft som nu leder mig mot en karriär inom ett område som jag anser vara både extremt fascinerande och intressant. Jag söker en praktikplats från hösten 2024 under en period av sex månader för att ytterligare fördjupa mina kunskaper och få praktisk erfarenhet.",
+      "resumeBtn": "Visa CV",
+      "profilecard": {
+        "title": "Frontendutvecklare"
+      },
+      "personal": {
+        "education1": "Jag påbörjade min resa mot ett nytt arbetsområde under 2021, sedan dess har jag studerat på kommunal vuxenutbildning och har läst många ämnen inom dator & nätverksteknik, programmering och webbutveckling samt engelska, svenska och matematik.",
+        "education2": "Under 2023 blev jag antagen till Jensens Yrkeshögskola på utbildningen till Frontendutvecklare inriktning webbsäkerhet. Jag trivs enormt mycket inom detta område då jag alltid haft ett stort intresse för datorer och jag lär mig väldigt lätt nya saker som jag finner intressant.",
+        "freetime": "På min fritid så spenderar jag dagar till största del framför någon av mina datorer, jag försöker lära mig nya saker inom webbutveckling både gällande frontend och backend. Jag utforskar även andra programmeringsspråk som python och hjälpverktyg som photoshop samt olika operativsystem, vilket tar upp nästan all min fritid.",
+        "mylove": "I mitt liv har jag min underbara fru, som alltid står vid min sida och som har uppmanat mig att börja studera igen så att jag kan få möjligheten att arbeta med något jag tycker är roligt och som jag tycker är intressant. Vi har även underbar liten hund som heter Flash och vi får snart vårt första barn tillsammans."
+      },
+      "personalTitles": {
+        "education1": "Studier",
+        "education2": "Framåt",
+        "freetime": "Fritid",
+        "mylove": "Livet"
+      }
+    },
+    "project": {
+      "title": "Projekt",
+      "description": "Utforska några av mina projekt genom att klicka på nedanstående länkar. Dessutom finns ytterligare projekt tillgängliga på min GitHub-profil för en mer omfattande överblick över min portfölj. Där kan du följa min utvecklingsresa och ta del av mina projekt, observera att flera av mina projekt är pågående och jag arbetar på dessa i mån av tid.",
+      "github": "Github Projekt",
+      "hosted": "Live Projekt",
+      "animatedCards": {
+        "card1Title": "Fashionhub",
+        "card1Subtitle": "Webshop app",
+        "card2Title": "MealRadar",
+        "card2Subtitle": "Måltid / Recept app",
+        "card3Title": "Waffle Lounge",
+        "card3Subtitle": "Restaurang app"
+      }
+    },
+    "showcase": {
+      "title": "Galleri",
+      "subtitle": "Komponenter",
+      "description": "Här finns några av mina komponenter som jag skapat men aldrig riktigt fått användning för. Observera att komponenter öppnas i nya flikar vid visning.",
+      "comingsoon": {
+        "title": "Kommer snart..."
+      }
+    },
+    "contact": {
+      "title": "Kontakt",
+      "subtitle": "Email Formulär",
+      "description": "Har du frågor eller vill nå mig? Använd formuläret nedan för att skicka ett meddelande.",
+      "form": {
+        "name": "Namn:",
+        "email": "Email:",
+        "message": "Meddelande:",
+        "submitBtn": "Skicka",
+        "clearBtn": "Rensa",
+        "emailSent": "Ditt meddelande har skickats.",
+        "emailFailed": "Ditt meddelande kunde inte skickas."
+      }
+    },
+    "intropage": {
+      "swedish": "Svenska",
+      "english": "English"
+    },
+    "resume": {
+      "title": "Frontendutvecklare",
+      "description": "Studerar för närvarande till Frontendutvecklare med inriktning webbsäkerhet. Jag trivs i utmanande miljöer som främjar personlig utveckling. Som en lättlärd, positiv och flexibel person anpassar jag mig snabbt till nya situationer och arbetsuppgifter.",
+      "education1": {
+        "title": "Kommunal Vuxenutbildning",
+        "school": "Jensen Komvux, Stockholm",
+        "period": "2021-2023"
+      },
+      "education2": {
+        "title": "Frontendutvecklare Webbsäkerhet",
+        "school": "Jensen YH, Stockholm",
+        "period": "2023 - Pågående"
+      },
+      "education3": {
+        "title": "El & Energi Programmet",
+        "school": "Strömbackaskolan, Piteå",
+        "period": "2007 - 2009 (avbruten)"
+      },
+      "work1": {
+        "title": "Bilrekonditionerare",
+        "workplace": "Bonden Motor, Stockholm",
+        "period": "jun 2016 - nov 2019",
+        "responsibility1": "Dagsplanering",
+        "responsibility2": "Kundbemötande",
+        "responsibility3": "Kassa"
+      },
+      "work2": {
+        "title": "Bilrekonditionerare",
+        "workplace": "Bilvårdscenter, Piteå",
+        "period": "apr 2014 - feb 2016",
+        "responsibility1": "Dagsplanering",
+        "responsibility2": "Kundbemötande",
+        "responsibility3": "Kassa"
+      },
+      "work3": {
+        "title": "Kultur & Fritid - Skogsröjare",
+        "workplace": "Piteå Kommun, Piteå",
+        "period": "maj 2012 - nov 2012",
+        "responsibility1": "",
+        "responsibility2": "",
+        "responsibility3": ""
+      },
+      "work4": {
+        "title": "Kultur & Fritid - Skogsröjare",
+        "workplace": "Piteå Kommun, Piteå",
+        "period": "jul 2010 - jul 2011",
+        "responsibility1": "",
+        "responsibility2": "",
+        "responsibility3": ""
+      },
+      "project1": {
+        "title": "Projekt 1 - Test",
+        "description": "Testing Testing Testing",
+        "language": "JavaScript, HTML & CSS"
+      },
+      "project2": {
+        "title": "Projekt 2 - Test",
+        "description": "Testing Testing Testing",
+        "language": "React, NodeJS"
+      },
+      "project3": {
+        "title": "Projekt 3 - Test",
+        "description": "Testing Testing Testing",
+        "language": "RESTAPI NodeJS"
+      },
+      "resumetitles": {
+        "contact": "Kontakt",
+        "about": "Profil",
+        "knowledge": "Kunskaper",
+        "education": "Utbildning",
+        "workexperience": "Arbetserfarenhet",
+        "workresponsibility": "Ansvarsområden",
+        "project": "Projekt"
+      }
+    },
+    "languageBtn": {
+      "selector": "Språk",
+      "swedish": "Svenska ✓",
+      "english": "Engelska"
+    },
+    "errorPages": {
+      "notFound": "Sidan finns inte.",
+      "generalError": "Något gick fel.",
+      "generalErrorSub": "Försök igen senare."
+    },
+    "settings": {
+      "title": "Inställningar",
+      "closeBtn": "Stäng",
+      "cookies": {
+        "title": "Cookies",
+        "information": "Denna webbplats använder endast nödvändiga cookies. Du kan enkelt ta bort sparade cookies relaterat till sidan här.",
+        "remove": "Ta bort Cookies",
+        "removedMessage": "Cookies relaterat till sidan har tagits bort ur din webbläsare."
+      },
+      "language": {
+        "title": "Språkval",
+        "information": "Valet av språk sparas i Cookies. Val av språk gör att en ny cookie sparas, om det inte redan finns en."
+      },
+      "theme": {
+        "title": "Tema",
+        "information": "Byt mellan ljus och mörkt tema på sidan.",
+        "toggle": "Byt"
+      }
+    },
+    "CookiePolicy": {
+      "title": "Denna webbplats använder nödvändiga cookies.",
+      "declineBtn": "Avböj",
+      "acceptBtn": "Acceptera"
+    },
+    "cookieTable": {
+      "host": "Värd",
+      "cookieName": "Kaka",
+      "lifespan": "Livslängd",
+      "usage": "Värde"
+    }
+  },
+  "data": {
+    "projects": [
+      {
+        "id": 1,
+        "title": "Portfolio",
+        "subtitle": "React & TailwindCSS",
+        "description": "Mitt projekt för att skapa min egen portfolio. Ständigt pågående projekt.",
+        "image": "/icons/Vite.svg",
+        "link": "https://github.com/hallstrom91/portfolio_v1"
+      },
+      {
+        "id": 2,
+        "title": "Login",
+        "subtitle": "React & NodeJS",
+        "description": "Loginfunktion med verifikation via auth server med hjälp av JWT.",
+        "image": "/icons/React.svg",
+        "link": "https://github.com/hallstrom91/fwk23s-grupp2-project"
+      },
+      {
+        "id": 3,
+        "title": "Webshop",
+        "subtitle": "React & NodeJS",
+        "description": "Komplett webshop för ett fiktivt klädföretag. Byggt med hjälp av React Bootstrap för styling.",
+        "image": "/icons/Node.svg",
+        "link": "https://github.com/hallstrom91/ecommerce_project"
+      },
+      {
+        "id": 4,
+        "title": "Kontaktbok",
+        "subtitle": "Vanilla JS",
+        "description": "Enkel kontaktbok där man kan spara och radera kontakter dynamiskt.",
+        "image": "/icons/JavaScript.svg",
+        "link": "https://github.com/hallstrom91/JavaScript-ContactBook"
+      },
+      {
+        "id": 5,
+        "title": "Måltidsapp",
+        "subtitle": "React",
+        "description": "Måltidsapplikation för olika recept, data från TheMealDB APIn.",
+        "image": "/icons/React.svg",
+        "link": "https://github.com/hallstrom91/themealdb_api_project"
+      },
+      {
+        "id": 6,
+        "title": "Blockchain",
+        "subtitle": "Python",
+        "description": "Under utveckling - Grundläggande blockkedja skriven i Python.",
+        "image": "/icons/Python.svg",
+        "link": "https://github.com/hallstrom91/python_blockchain"
+      }
+    ],
+    "cookieInformation": [
+      {
+        "id": 1,
+        "host": "kjsportfolio.se",
+        "name": "cookiePolicy",
+        "value": "'accepted' eller 'declined'",
+        "lifespan": "365 dagar"
+      },
+      {
+        "id": 2,
+        "host": "kjsportfolio.se",
+        "name": "language",
+        "value": "'sv' eller 'en'",
+        "lifespan": "365 dagar"
+      },
+      {
+        "id": 3,
+        "host": "kjsportfolio.se",
+        "name": "theme",
+        "value": "'light' eller 'dark'",
+        "lifespan": "365 dagar"
+      }
+    ]
+  }
+}

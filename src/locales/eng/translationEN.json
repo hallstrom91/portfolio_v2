@@ -1,0 +1,261 @@
+{
+  "translation": {
+    "navbar": {
+      "profile": "profile",
+      "projects": "projects",
+      "showcase": "showcase",
+      "contact": "contact",
+      "tooltiphelper": "Click here for menu"
+    },
+    "hero": {
+      "title": "profile",
+      "subtitle": "more about me",
+      "description": "Born and raised in Piteå, Norrbotten County. Since 2016, I have been living in Stockholm and currently deepening my skills as a Frontend Developer with a focus on web security at Jensen Vocational College in Kista. Belonging to the FWK23S class, I am expected to complete my education in the summer of 2025. My lifelong interest in computers has been a driving force that now leads me toward a career in a field that I find both extremely fascinating and interesting. I am seeking an internship from the fall of 2024 for a period of six months to further deepen my knowledge and gain practical experience.",
+      "resumeBtn": "View CV",
+      "profilecard": {
+        "title": "Frontend Developer"
+      },
+      "personal": {
+        "education1": "I began my journey towards a new career field in 2021, and since then I have studied at adult education and taken many subjects in computer & network technology, programming and web development, as well as English, Swedish, and mathematics.",
+        "education2": "In 2023, I was admitted to Jensen Vocational College in the Frontend Developer program focusing on web security. I enjoy this field immensely as I have always had a great interest in computers and find it very easy to learn new things that I find interesting.",
+        "freetime": "In my free time, I spend most of my days in front of one of my computers, trying to learn new things in web development, both in frontend and backend. I also explore other programming languages like Python and tools like Photoshop, as well as different operating systems, which takes up almost all of my free time.",
+        "mylove": "In my life, I have my wonderful wife, who always stands by my side and has encouraged me to start studying again so that I can have the opportunity to work with something I enjoy and find interesting. We also have a wonderful little dog named Flash, and we are soon expecting our first child together."
+      },
+      "personalTitles": {
+        "education1": "Studies",
+        "education2": "Progress",
+        "freetime": "Leisure",
+        "mylove": "Life"
+      }
+    },
+    "project": {
+      "title": "Projects",
+      "description": "Explore some of my projects by clicking on the links below. Additionally, more projects are available on my GitHub profile for a more comprehensive overview of my portfolio. There you can follow my development journey and take part in my projects, noting that many of my projects are ongoing and I work on them as time permits.",
+      "github": "Github Projects",
+      "hosted": "Live Projects",
+      "animatedCards": {
+        "card1Title": "Fashionhub",
+        "card1Subtitle": "Webshop app",
+        "card2Title": "MealRadar",
+        "card2Subtitle": "Meal / Recipe app",
+        "card3Title": "Waffle Lounge",
+        "card3Subtitle": "Restaurant app"
+      }
+    },
+    "showcase": {
+      "title": "Showcase",
+      "subtitle": "Components",
+      "description": "Here are some of my components that I have created but never really used. Note that components open in new tabs when viewed.",
+      "comingsoon": {
+        "title": "Coming soon..."
+      }
+    },
+
+    "contact": {
+      "title": "Contact",
+      "subtitle": "Email Form",
+      "description": "Do you have questions or want to reach me? Use the form below to send a message.",
+      "form": {
+        "name": "Name:",
+        "email": "Email:",
+        "message": "Message:",
+        "submitBtn": "Send",
+        "clearBtn": "Clear",
+        "emailSent": "Your message has been sent.",
+        "emailFailed": "Your message could not be sent."
+      },
+      "intropage": {
+        "swedish": "Svenska",
+        "english": "English"
+      }
+    },
+    "resume": {
+      "description": "Frontend Development student with a focus on web security. Completed two out of four semesters of my education. Possesses a solid understanding of HTML5, CSS, JavaScript, React, NodeJS & MySQL. Driven by a constant pursuit of personal development, which is evident in my self-studies and projects. Additional skills acquired through several courses in data & network technology at adult education, and I have a lifelong interest in computers, networks, gaming & components.",
+      "education1": {
+        "title": "Municipal Adult Education",
+        "school": "Jensen Komvux, Stockholm",
+        "period": "2021-2023"
+      },
+      "education2": {
+        "title": "Frontend Developer Web Security",
+        "school": "Jensen Vocational College, Stockholm",
+        "period": "2023 - Ongoing"
+      },
+      "education3": {
+        "title": "Electrical & Energy Program",
+        "school": "Strömbackaskolan, Piteå",
+        "period": "2007 - 2009 (unfinished)"
+      },
+      "work1": {
+        "title": "Car Detailer",
+        "workplace": "Bonden Motor, Stockholm",
+        "period": "June 2016 - Nov 2019",
+        "responsibility1": "Daily planning",
+        "responsibility2": "Customer service",
+        "responsibility3": "Cash register"
+      },
+      "work2": {
+        "title": "Car Detailer",
+        "workplace": "Bilvårdscenter, Piteå",
+        "period": "April 2014 - Feb 2016",
+        "responsibility1": "Daily planning",
+        "responsibility2": "Customer service",
+        "responsibility3": "Cash register"
+      },
+      "work3": {
+        "title": "Culture & Leisure - Forest Worker",
+        "workplace": "Piteå Municipality, Piteå",
+        "period": "May 2012 - Nov 2012",
+        "responsibility1": "",
+        "responsibility2": "",
+        "responsibility3": ""
+      },
+      "work4": {
+        "title": "Culture & Leisure - Forest Worker",
+        "workplace": "Piteå Municipality, Piteå",
+        "period": "July 2010 - July 2011",
+        "responsibility1": "",
+        "responsibility2": "",
+        "responsibility3": ""
+      },
+      "project1": {
+        "title": "Project 1 - Test",
+        "description": "Testing Testing Testing",
+        "language": "JavaScript, HTML & CSS"
+      },
+      "project2": {
+        "title": "Project 2 - Test",
+        "description": "Testing Testing Testing",
+        "language": "React, NodeJS"
+      },
+      "project3": {
+        "title": "Project 3 - Test",
+        "description": "Testing Testing Testing",
+        "language": "RESTAPI NodeJS"
+      },
+      "resumetitles": {
+        "contact": "Contact",
+        "about": "Profile",
+        "knowledge": "Skills",
+        "education": "Education",
+        "workexperience": "Work Experience",
+        "workresponsibility": "Responsibilities",
+        "project": "Projects"
+      }
+    },
+    "languageBtn": {
+      "selector": "Language",
+      "swedish": "Swedish",
+      "english": "English ✓"
+    },
+    "errorPages": {
+      "notFound": "Page not found.",
+      "generalError": "Something went wrong.",
+      "generalErrorSub": "Please try again later."
+    },
+    "settings": {
+      "title": "Settings",
+      "cookies": {
+        "title": "Cookies",
+        "information": "This website only uses necessary cookies. You can easily remove saved cookies related to the site here.",
+        "remove": "Remove Cookies",
+        "removedMessage": "Cookies related to the site have been removed from your browser"
+      },
+      "language": {
+        "title": "Language Selection",
+        "information": "The language choice is saved in cookies. Selecting a language will save a new cookie, if it doesn't already exist."
+      },
+      "theme": {
+        "title": "Theme",
+        "information": "Switch between light and dark theme on the page.",
+        "toggle": "Switch"
+      }
+    },
+    "cookiePolicy": {
+      "title": "This website uses cookies.",
+      "declineBtn": "Decline",
+      "acceptBtn": "Accept"
+    },
+    "cookieTable": {
+      "host": "Host",
+      "cookieName": "Cookie Name",
+      "lifespan": "Lifespan",
+      "usage": "Value"
+    }
+  },
+  "data": {
+    "projects": [
+      {
+        "id": 1,
+        "title": "Portfolio",
+        "subtitle": "React & TailwindCSS",
+        "description": "My project to create my own portfolio. Ongoing project.",
+        "image": "/icons/Vite.svg",
+        "link": "https://github.com/hallstrom91/portfolio_v1"
+      },
+      {
+        "id": 2,
+        "title": "Login",
+        "subtitle": "React & NodeJS",
+        "description": "Login function with verification via auth server using JWT.",
+        "image": "/icons/React.svg",
+        "link": "https://github.com/hallstrom91/fwk23s-grupp2-project"
+      },
+      {
+        "id": 3,
+        "title": "Webshop",
+        "subtitle": "React & NodeJS",
+        "description": "Complete webshop for a fictional clothing company. Built using React Bootstrap for styling.",
+        "image": "/icons/Node.svg",
+        "link": "https://github.com/hallstrom91/ecommerce_project"
+      },
+      {
+        "id": 4,
+        "title": "Contact Book",
+        "subtitle": "Vanilla JS",
+        "description": "Simple contact book where you can save and delete contacts dynamically.",
+        "image": "/icons/JavaScript.svg",
+        "link": "https://github.com/hallstrom91/JavaScript-ContactBook"
+      },
+      {
+        "id": 5,
+        "title": "Meal App",
+        "subtitle": "React",
+        "description": "Meal application for various recipes, data from TheMealDB API.",
+        "image": "/icons/React.svg",
+        "link": "https://github.com/hallstrom91/themealdb_api_project"
+      },
+      {
+        "id": 6,
+        "title": "Blockchain",
+        "subtitle": "Python",
+        "description": "Under development - Basic blockchain written in Python.",
+        "image": "/icons/Python.svg",
+        "link": "https://github.com/hallstrom91/python_blockchain"
+      }
+    ],
+    "cookieInformation": [
+      {
+        "id": 1,
+        "host": "kjsportfolio.se",
+        "name": "cookiePolicy",
+        "value": "'accepted' or 'declined'",
+        "lifespan": "365 days"
+      },
+      {
+        "id": 2,
+        "host": "kjsportfolio.se",
+        "name": "language",
+        "value": "'sv' or 'en'",
+        "lifespan": "365 days"
+      },
+      {
+        "id": 3,
+        "host": "kjsportfolio.se",
+        "name": "theme",
+        "value": "'light' or 'dark'",
+        "lifespan": "365 days"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+:root {
+  --color-bg-light: #ffffff;
+  --color-bg-dark: #3e3e3e;
+  --color-icon-dark: #000000;
+  --color-icon-light: #ffffff;
+}
+body {
+  background-image: url("/design/binaryBG.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  transition: background-color 1s ease-in-out;
+}
+
+body.light {
+  background-color: var(--color-bg-light);
+}
+
+body.dark {
+  background-color: var(--color-bg-dark);
+}
+
+.icon {
+  fill: var(--color-icon-dark);
+  stroke: var(--color-icon-dark);
+}
+
+body.dark .icon {
+  fill: var(--color-icon-light);
+  stroke: var(--color-icon-light);
+}
+
+/* start - css for page loading animation */
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-exit {
+  opacity: 1;
+  position: absolute;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.page-content {
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow: hidden;
+  position: absolute;
+}
+/* end - css for page loading animation */
