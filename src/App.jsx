@@ -4,7 +4,9 @@ import ErrorBoundary from "@utils/ErrorBoundary";
 import CookiePolicyHOC from "@utils/CookiePolicyHOC";
 import NotFound from "@utils/NotFound";
 import AnimatedRoutes from "./routes/AnimatedRoutes";
-import useTheme from "@hooks/useTheme";
+import { useTheme } from "@hooks/useTheme";
+import Cookies from "js-cookie";
+import "./App.css";
 
 export default function App() {
   const { theme, setTheme } = useTheme();

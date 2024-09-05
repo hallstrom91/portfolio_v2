@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { useTheme } from "@context/ThemeContext";
+import { useTheme } from "@hooks/useTheme";
 import Table from "@shared/Table";
 import Cookies from "js-cookie";
 

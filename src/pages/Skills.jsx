@@ -1,7 +1,8 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import GithubCards from "@showcase/GithubCards";
-import ProjectCards from "@showcase/ProjectCards";
+import GithubCard from "@cards/GithubCard";
+/* import ProjectCards from "@showcase/ProjectCards"; */
+
 export default function Skills() {
   const { t } = useTranslation();
   const projects = t("data.projects", { returnObjects: true });
@@ -33,7 +34,7 @@ export default function Skills() {
           <div className="grid grid-cols-1 items-center gap-4 md:grid-cols-2 lg:grid-cols-3 mb-10">
             {projects.map((project, idx) => (
               <div className="flex items-center justify-center my-1" key={idx}>
-                <GithubCards project={project} />
+                <GithubCard project={project} />
               </div>
             ))}
           </div>

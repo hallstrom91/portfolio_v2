@@ -1,0 +1,51 @@
+.tooltip {
+  position: absolute;
+  bottom: 50%;
+  right: 110%;
+  transform: translateY(50%);
+  background-color: rgb(219, 216, 216);
+  color: black;
+  padding: 8px;
+  margin-right: 4px;
+  border-radius: 4px;
+  font-size: 14px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 1s ease-in-out;
+  border: 2px solid rgb(153 27 27);
+}
+
+.tooltip.show {
+  opacity: 1;
+}
+
+.tooltip::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-left: 2%;
+  transform: translateY(-50%);
+  border: 7px solid;
+  border-color: transparent transparent transparent rgb(153 27 27);
+}
+
+@keyframes tooltippulse {
+  0% {
+    opacity: 0;
+    transform: translateY(50%) scale(0.8);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateY(50%) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(50%) scale(1);
+  }
+}
+
+.tooltippulse {
+  animation: tooltippulse 3s ease-in;
+}

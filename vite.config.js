@@ -5,7 +5,7 @@ import { sentryVitePlugin } from "@sentry/vite-plugin";
 import dotenv from "dotenv";
 
 dotenv.config();
-// https://vitejs.dev/config/
+
 export default defineConfig({
   build: {
     sourcemap: true,
@@ -32,7 +32,8 @@ export default defineConfig({
   resolve: {
     alias: {
       "@svg": "/src/assets/svg",
-      "@context": "/src/context",
+      "@contexts": "/src/contexts",
+      "@css": "/src/css",
       "@helpers": "/src/helpers",
       "@hooks": "/src/hooks",
       "@locales": "/src/locales",
@@ -41,7 +42,8 @@ export default defineConfig({
       "@components": "/src/components",
       "@utils": "/src/components/utils",
       "@shared": "/src/components/shared",
-      "@": "",
+      "@cards": "/src/components/cards",
+      "@modals": "/src/components/modals",
     },
   },
 });

@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import SettingsModal from "@utils/SettingsModal";
-import styles from "@css/Navbar.module.css";
+import SettingsModal from "@modals/SettingsModal";
 import { Open, Close, Cog } from "@helpers/importHelper";
+import styles from "@css/Navbar.module.css";
 
 export default function Navbar({ setActivePage }) {
   const { t } = useTranslation();

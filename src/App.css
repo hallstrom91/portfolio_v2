@@ -5,7 +5,7 @@
   --color-icon-light: #ffffff;
 }
 body {
-  background-image: url("/design/binaryBG.png");
+  background-image: url("/svg/binaryBG.svg");
   background-repeat: repeat;
   background-attachment: fixed;
   transition: background-color 1s ease-in-out;

@@ -1,4 +1,4 @@
-export default function GithubCards({ project }) {
+export default function GithubCard({ project }) {
   return (
     <>
       <div className="group relative hover:shadow-xl rounded-lg overflow-hidden border-2 border-black dark:border-white border-opacity-10 shadow-md shadow-black/10 dark:shadow-white/10 w-56">

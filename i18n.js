@@ -1,7 +1,7 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-import combinedSV from "./src/locales/sv/translationSV.json";
-import combinedEN from "./src/locales/en/translationEN.json";
+import combinedSV from "@locales/sv/translationSV.json";
+import combinedEN from "@locales/en/translationEN.json";
 import Cookies from "js-cookie";
 
 const resources = {

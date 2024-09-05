@@ -22,7 +22,7 @@ export default function ProfileCard({ setActivePage }) {
             <div className="flex justify-center">
               <div className="w-48 h-48 overflow-hidden border-2 border-black bg-gradient-to-b from-neutral-800 to-neutral-100 rounded-lg shadow-xl shadow-black dark:shadow-white relative bottom-[5rem]">
                 <img
-                  src="/images/portfolio_profile.png"
+                  src="/images/profile.png"
                   className="object-scale-down"
                   alt="Picture of Myself"
                 />

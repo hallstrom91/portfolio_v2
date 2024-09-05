@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useEffect, useState } from "react";
+import React, { createContext, useState } from "react";
 import Cookies from "js-cookie";
 
 const ThemeContext = createContext();

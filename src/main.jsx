@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import * as Sentry from "@sentry/react";
 import App from "./App.jsx";
-import { ThemeProvider } from "@context/ThemeContext";
+import { ThemeProvider } from "@contexts/ThemeContext";
 import { I18nextProvider } from "react-i18next";
 import Cookies from "js-cookie";
 import i18n from "../i18n";
