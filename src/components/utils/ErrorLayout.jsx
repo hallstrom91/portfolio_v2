@@ -6,7 +6,7 @@ export default function ErrorLayout({ title, message }) {
         <p className="text-2xl mt-4 font-semibold">{message}</p>
         <a
           href="/"
-          className="mt-4 px-4 py-2 rounded border border-black dark:border-white bg-neutral-300 dark:bg-neutral-500 "
+          className="mt-4 px-4 py-2 rounded border bg-btnColor-light dark:bg-btnColor-dark text-textColor-light dark:text-textColor-dark border-accentColor-light dark:border-accentColor-dark "
         >
           Back Home
         </a>

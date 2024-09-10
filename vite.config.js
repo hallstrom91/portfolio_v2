@@ -31,6 +31,7 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
+      "@assets": "/src/assets",
       "@svg": "/src/assets/svg",
       "@contexts": "/src/contexts",
       "@css": "/src/css",

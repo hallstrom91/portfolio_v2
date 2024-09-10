@@ -8,6 +8,7 @@ import { I18nextProvider } from "react-i18next";
 import Cookies from "js-cookie";
 import i18n from "../i18n";
 import "./index.css";
+import Intro from "@pages/Intro";
 
 const sentryDSN = import.meta.env.VITE_SENTRY_DSN;
 const savedLanguage = Cookies.get("language");

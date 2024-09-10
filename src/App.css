@@ -1,14 +1,12 @@
 :root {
   --color-bg-light: #ffffff;
   --color-bg-dark: #3e3e3e;
-  --color-icon-dark: #000000;
-  --color-icon-light: #ffffff;
 }
 body {
   background-image: url("/svg/binaryBG.svg");
   background-repeat: repeat;
   background-attachment: fixed;
-  transition: background-color 1s ease-in-out;
+  /* transition: background-color 1s ease-in-out; */
 }
 
 body.light {
@@ -19,14 +17,8 @@ body.dark {
   background-color: var(--color-bg-dark);
 }
 
-.icon {
-  fill: var(--color-icon-dark);
-  stroke: var(--color-icon-dark);
-}
-
-body.dark .icon {
-  fill: var(--color-icon-light);
-  stroke: var(--color-icon-light);
+.transition-all {
+  transition: all 1s ease-in-out;
 }
 
 /* start - css for page loading animation */

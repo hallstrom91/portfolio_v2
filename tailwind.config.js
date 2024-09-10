@@ -5,41 +5,60 @@ export default {
   theme: {
     extend: {
       transitionProperty: {
-        bg: "background-color",
+        bg: "background",
         text: "color",
+        fill: "fill",
+        stroke: "stroke",
+        border: "border-color",
+      },
+      transitionDuration: {
+        bg: "1000ms",
+        text: "1000ms",
       },
       colors: {
         background: {
           light: "var(--color-bg-light)",
           dark: "var(--color-bg-dark)",
         },
-        primaryColor: {
-          light: "#e5e7eb", // light grey
-          dark: "#1f2937", // dark grey
+        primary: {
+          light: "#E0E2E4", // light grey
+          gradientLight: "#C6C8CA",
+          dark: "#26292B", // dark grey
+          gradientDark: "#3C4348",
         },
-        textColor: {
-          light: "#1f2933", // dark grey
-          dark: "#f3f4f6", // light grey
+        secondary: {
+          light: "#F3F4F6", // lighter tone for gradient
+          dark: "#2E3239", // dark tone for gradient
         },
-        accentColor: {
-          light: "#64748b", //soft blue-grey
-          dark: "#94a3b8", // light blue-grey
+        accent: {
+          light: "#4472CA", // dark grey
+          dark: "#5F7ADB", // light grey
         },
-        borderColor: {
-          light: "#d1d5db", // light
-          dark: "#374151", // dark
+        subtle: {
+          light: "#ADC6FF", //soft blue-grey
+          dark: "#A2B2EE", // light blue-grey
         },
-        btnColor: {
-          light: "#2563eb", // dark blue
-          dark: "#3b82f6", // light blue
+        icon: {
+          light: "#000000",
+          dark: "#ffffff",
         },
-      },
-    },
-    variants: {
-      extend: {
-        fill: ["dark"],
       },
     },
   },
   plugins: [],
 };
+
+// bg and text
+// bg-primary-light text-black dark:bg-primary-dark dark:text-white
+
+// border
+// border-subtle-light dark:border-subtle-dark
+
+// shadow
+// shadow-accent-light dark:shadow-accent-dark
+
+// btn
+// bg-subtle-light dark:bg-subtle-dark text-black dark:text-light border-accent-light dark:border-accent-dark
+
+// gradient
+// bg-gradient-to-r from-primary-light to-primary-gradientLight dark:bg-gradient-to-r dark:from-primary-dark dark:to-primary-gradientDark

@@ -9,6 +9,16 @@ import {
   Profession,
 } from "@helpers/importHelper";
 
+import {
+  GlobeIcon,
+  LinkedInIcon,
+  EmailIcon,
+  LiteratureIcon,
+  GithubIcon,
+  ProfessionIcon,
+  GeoIcon,
+} from "@helpers/IconImporter";
+
 export default function ProfileCard({ setActivePage }) {
   const { t } = useTranslation();
   return (
@@ -17,70 +27,71 @@ export default function ProfileCard({ setActivePage }) {
       <section>
         <div className="flex mt-10 w-full max-w-xl md:mt-5">
           {/* Sidebar Menu Card */}
-          <div className="border-2 border-black bg-neutral-300 text-black dark:bg-neutral-800 dark:text-white px-10 rounded-lg transition-colors duration-1000">
+          <div className="border-2 border-subtle-light dark:border-subtle-dark bg-primary-light text-black dark:bg-primary-dark dark:text-white px-10 rounded-lg transition-all">
             {/* img here - below */}
             <div className="flex justify-center">
-              <div className="w-48 h-48 overflow-hidden border-2 border-black bg-gradient-to-b from-neutral-800 to-neutral-100 rounded-lg shadow-xl shadow-black dark:shadow-white relative bottom-[5rem]">
+              <div className="w-48 h-48 overflow-hidden border-2 border-subtle-light dark:border-subtle-dark bg-gradient-to-r from-primary-light to-primary-gradientLight dark:bg-gradient-to-r dark:from-primary-dark dark:to-primary-gradientDark rounded-lg shadow-lg shadow-accent-light dark:shadow-accent-dark relative bottom-[5rem] transition-all">
                 <img
                   src="/images/profile.png"
                   className="object-scale-down"
-                  alt="Picture of Myself"
+                  alt="Profile Picture"
                 />
               </div>
             </div>
             {/* Content For Profile */}
             <div className="px-5 rounded-lg">
               <div className="flex gap-2 justify-center mt-2">
-                <Globe
-                  className="icon transition-colors duration-1000"
+                <GlobeIcon
+                  height={30}
+                  className="fill-icon-light dark:fill-icon-dark transition-all"
+                />
+                <LinkedInIcon
+                  className="fill-icon-light dark:fill-icon-dark transition-all"
                   height={30}
                 />
-                <LinkedinRounded
-                  className="icon transition-colors duration-1000"
-                  height={30}
-                />
-                <GithubRounded
-                  className="icon transition-colors duration-1000"
+                <GithubIcon
+                  className="fill-icon-light dark:fill-icon-dark transition-all"
                   height={30}
                 />
               </div>
               {/* Profile Links */}
-              <div className="p-6 border-2 border-black dark:border-white rounded-lg mt-4 bg-gradient-to-r from-neutral-400 to-neutral-300 dark:bg-gradient-to-r dark:from-neutral-800 dark:to-neutral-700">
+              <div className="p-6 border-2 border-subtle-light dark:border-subtle-dark rounded-lg mt-4 bg-gradient-to-r from-primary-light to-primary-gradientLight dark:bg-gradient-to-r dark:from-primary-dark dark:to-primary-gradientDark transition-all">
                 <ul className="text-center pt-3 gap-2">
-                  <li className="flex items-center p-1  my-2 tracking-tighter font-light">
-                    <Profession
-                      className="icon transition-colors duration-1000"
+                  <li className="flex items-center p-1 my-2 tracking-tighter font-light">
+                    <ProfessionIcon
+                      className="fill-icon-light dark:fill-icon-dark transition-all"
                       height={22}
                     />
+
                     <span className="pl-2 text-sm">
                       {t("translation.hero.profilecard.title")}
                     </span>
                   </li>
-                  <div className="border-black dark:border-white border-2 w-40 flex justify-center opacity-30 rounded-2xl shadow-md shadow-white"></div>
+                  <div className="border-black dark:border-white border-2 w-40 flex justify-center opacity-30 rounded-2xl shadow-md shadow-white transition-all"></div>
                   <li className="flex items-center p-1  my-2 tracking-tighter font-light">
-                    <Email
-                      className="icon transition-colors duration-1000"
+                    <EmailIcon
+                      className="fill-icon-light dark:fill-icon-dark transition-all"
                       height={22}
                     />
                     <span className="pl-2 text-sm">shallstrom91@gmail.se</span>
                   </li>
                   <div className="border-black dark:border-white border-2 w-40 flex justify-center opacity-30 rounded-2xl shadow-md shadow-white"></div>
                   <li className="flex items-center p-1  my-2 tracking-tighter font-light">
-                    <GeoLocation
-                      className="icon transition-colors duration-1000"
-                      height={25}
+                    <GeoIcon
+                      className="fill-icon-light dark:fill-icon-dark transition-all"
+                      height={22}
                     />
                     <span className="pl-2 text-nowrap text-sm">
                       Stockholm, Sweden
                     </span>
                   </li>
-                  <div className="border-black dark:border-white border-2 w-40 flex justify-center opacity-30 rounded-2xl shadow-md shadow-white"></div>
+                  <div className="border-black dark:border-white border-2 w-40 flex justify-center opacity-30 rounded-2xl shadow-md shadow-white transition-all"></div>
                 </ul>
               </div>
-              <div className="flex justify-center pt-5 pb-8">
+              <div className="flex justify-center w-full pt-5 pb-8">
                 <Link
                   onClick={() => setActivePage("Resume")}
-                  className="p-2 border-2 rounded-xl border-black dark:border-white bg-neutral-800 dark:bg-neutral-100 text-white dark:text-black md:hover:bg-neutral-100 md:hover:text-black dark:md:hover:bg-neutral-800 dark:md:hover:text-white tracking-tight"
+                  className="p-2 border-2 rounded-xl bg-subtle-light dark:bg-subtle-dark text-black  border-accent-light dark:border-accent-dark transition-all"
                 >
                   {t("translation.hero.resumeBtn")}
                 </Link>
